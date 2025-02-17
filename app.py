@@ -5,7 +5,7 @@ import time
 
 
 
-genai.configure(api_key="")
+genai.configure(api_key="AIzaSyAaUZIhZTe_aysg78fj9PJwS9NyaEZBrT0")
 
 app=Flask(__name__)
 
