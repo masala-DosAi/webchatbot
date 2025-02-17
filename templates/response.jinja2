@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+  <div id="text">
+    <div id="tag">
+      <h4>choose model</h1>
+    </div>
+    <select id="options"> 
+        <option value="1">Gem flash 1.5</option>
+        <option value="2">GPT 4o</option>
+        <option value="3">GPT 4</option>
+        <option value="4">D R1</option>
+
+    </select>
+    
+
+
+  
+  </div>
+  <div class="chat-container">
+   
+       <div class="chat-box" id="bot-message">{{response}}</div>
+          <div class="user-input">
+            <form action="/" method="POST">
+            <input type="text" id="user_input" name="user_input" placeholder="type your message here">
+            <img src="static/bot.png" id="bot">
+            <input type="submit" id="submit" value="submit">
+            </form>
+          </div>
+    
+    </div>
+    <script src="static/js/typing.js"></script>
+        
+</body>
+
+</html>
