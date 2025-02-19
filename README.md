@@ -10,7 +10,7 @@ Installation
 
 Clone the repo:
 
-git clone https://github.com/masala-DosAi/webchatbot.git
+git clone https://github.com/yourusername/webchatbot.git
 cd webchatbot
 
 Install dependencies:
